@@ -1,0 +1,27 @@
+body{
+background-color: #45322E ;
+color:white ;
+}
+h1{
+    color: aqua;
+    background-color: red;
+}
+#byn{
+    float: right;
+}
+canvas{
+    border: 11px royalblue solid;
+    margin-top: 101px;
+    border-radius: 11px;
+    animation-name: draW;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+@keyframes draW {
+    from{
+        box-shadow: 10px 5px 5px white;
+    }
+    to{
+        box-shadow: 10px 5px 5px black;
+    }
+}
